@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<data>
+    <ipv4>
+        <a_addr>192.168.1.101</a_addr>
+        <d_addr>192.168.1.1</d_addr>
+        <ihl>5</ihl>
+	<ver>4</ver>
+	<tos>4</tos>
+	<tot_len>0</tot_len>
+	<id>54321</id>
+	<frag_off>0</frag_off>
+	<ttl>255</ttl>
+	<proto>6</proto>
+	<check>0</check>
+    </ipv4>
+    <TCP>
+      <source>1234</source>
+      <dest>80</dest>
+      <seq>454</seq>
+      <ack_seq>0</ack_seq>
+      <doff>5</doff>
+      <fin>0</fin>
+      <syn>1</syn>
+      <rst>0</rst>
+      <psh>0</psh>
+      <ack>0</ack>
+      <urg>0</urg>
+      <check>0</check>
+      <urg_ptr>0</urg_ptr>
+    </TCP>
+    <user_data>Hello world</user_data>
+</data>
